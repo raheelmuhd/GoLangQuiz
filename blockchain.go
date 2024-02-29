@@ -1,5 +1,5 @@
 package main
-
+//this is a change im making in this file to then merge with main branch.
 import (
 	"fmt"
 	"time"
@@ -9,6 +9,8 @@ type Block struct {
 	Timestamp     int64
 	Data          string
 	PreviousBlock *Block
+	//adding hash 
+    	Hash          string
 }
 
 type Blockchain struct {

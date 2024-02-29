@@ -9,8 +9,7 @@ type Block struct {
 	Timestamp     int64
 	Data          string
 	PreviousBlock *Block
-	//adding hash and previous hash
-	PreviousHash  string
+	//adding hash 
     	Hash          string
 }
 
